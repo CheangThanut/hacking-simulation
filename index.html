@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Accessing</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessing Secure System</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="terminal">
-    <div class="output">
-      <p>System Breach Detected...</p>
-      <p>Initiating bypass protocols...</p>
-      <p class="loading">Loading...</p>
-      <p>Accessing external server...</p>
-      <p>Remote access granted!</p>
-      <p class="error">WARNING: Unauthorized access detected!</p>
+    <div class="terminal">
+        <div class="header">ACCESS TERMINAL v3.14</div>
+        <div class="output"></div>
+        <div class="input-line">
+            <span class="prompt">root@server:~$</span>
+            <span class="cursor">█</span>
+        </div>
     </div>
-  </div>
-  <script src="script.js"></script>
+    
+    <div class="terminal-extended">
+        <div class="log-title">System Log:</div>
+        <pre class="log-output">
+[INFO] Connecting to remote server...
+[INFO] Bypassing authentication...
+[WARNING] Unauthorized access detected!
+[ERROR] Connection unstable, retrying...
+[SUCCESS] Access granted!
+        </pre>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
